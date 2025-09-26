@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lefran Corretora de Seguros</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #006b3f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      max-height: 100px;
+    }
+    h1 {
+      margin: 10px 0 0;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card h2 {
+      color: #006b3f;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #006b3f;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #006b3f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="4c07c216-9e65-4914-8938-ef07de00cbfa.png" alt="Logo Lefran">
+    <h1>Lefran Corretora de Seguros</h1>
+    <p>Protegendo o que é importante para você</p>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="card">
+        <h2>Seguro Auto</h2>
+        <p>Proteção completa para o seu veículo.</p>
+        <a href="https://wa.me/5511953790093" class="btn">Fale no WhatsApp</a>
+      </div>
+
+      <div class="card">
+        <h2>Seguro Moto</h2>
+        <p>Segurança sob duas rodas.</p>
+        <a href="https://wa.me/5511953790093" class="btn">Fale no WhatsApp</a>
+      </div>
+
+      <div class="card">
+        <h2>Seguro Residencial</h2>
+        <p>Tranquilidade e proteção para sua casa.</p>
+        <a href="https://wa.me/5511953790093" class="btn">Fale no WhatsApp</a>
+      </div>
+
+      <div class="card">
+        <h2>Seguro Vida</h2>
+        <p>Cuidado e proteção para quem você ama.</p>
+        <a href="https://wa.me/5511953790093" class="btn">Fale no WhatsApp</a>
+      </div>
+
+      <div class="card">
+        <h2>Seguro Empresarial</h2>
+        <p>Segurança para sua empresa crescer com confiança.</p>
+        <a href="https://wa.me/5511953790093" class="btn">Fale no WhatsApp</a>
+      </div>
+
+      <div class="card">
+        <h2>Consórcio</h2>
+        <p>Realize seus sonhos com planejamento.</p>
+        <a href="https://wa.me/5511953790093" class="btn">Fale no WhatsApp</a>
+      </div>
+
+      <div class="card">
+        <h2>Seguro Saúde / Odonto</h2>
+        <p>Planos de saúde e odontológicos sob medida.</p>
+        <a href="https://wa.me/5511953790093" class="btn">Fale no WhatsApp</a>
+      </div>
+
+      <div class="card">
+        <h2>Seguro Fiança Locatícia</h2>
+        <p>Facilidade e segurança na locação de imóveis.</p>
+        <a href="https://wa.me/5511953790093" class="btn">Fale no WhatsApp</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Lefran Corretora de Seguros | Contato: (11) 95379-0093</p>
+  </footer>
+
+</body>
+</html>
